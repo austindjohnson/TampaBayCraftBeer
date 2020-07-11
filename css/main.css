@@ -12,6 +12,12 @@
 	background-size: cover;
 }
 
+.g7-beersbanner {
+	width: 100%;
+	background-image: url('../img/CraftBeer2.jpg');
+	background-size: cover;
+}
+
 g7-blackbackground {
 	background-color: black;
 }
