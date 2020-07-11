@@ -27,6 +27,12 @@ g7-blackbackground {
 	font-weight: bold;
 }
 
+.g7-chartbanner {
+	width: 100%;
+	background-image: url('../img/Hops1.JPG');
+	background-size: cover;
+}
+
 html {
 	box-sizing: border-box
 }
