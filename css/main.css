@@ -27,6 +27,40 @@ g7-blackbackground {
 	font-weight: bold;
 }
 
+.g7-largebold {
+	font-size: 50px !important;
+	font-weight: bold;
+}
+
+/* Create two equal columns that floats next to each other */
+.g7-column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	-ms-flex: 50%;
+	flex: 0 1 auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.g7-row:after {
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - makes the two brewery columns stack */
+@media screen and (max-width: 600px) {
+	.g7-column {
+		width: 100%;
+	}
+}
+
 .g7-chartbanner {
 	width: 100%;
 	background-image: url('../img/Hops1.JPG');
